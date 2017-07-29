@@ -1,0 +1,43 @@
+package org.zj.wechat.entity;
+
+/**
+ * Created by poshyed on 2017/7/10.
+ */
+public class TextContent {
+    private int id;
+    private String content;
+    private String msg;
+
+    public String getMsg() {
+        return msg;
+    }
+
+    public void setMsg(String msg) {
+        this.msg = msg;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getContent() {
+        return content;
+    }
+
+    public void setContent(String content) {
+        this.content = content;
+    }
+
+    @Override
+    public String toString() {
+        return "TextContent{" +
+                "id=" + id +
+                ", content='" + content + '\'' +
+                ", msg='" + msg + '\'' +
+                '}';
+    }
+}
